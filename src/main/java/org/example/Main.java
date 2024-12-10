@@ -18,7 +18,7 @@ public class Main {
         FileNameExtensionFilter filter = new FileNameExtensionFilter("PDF Files", "pdf");
 
         chooser.setFileFilter(filter);
-
+//
         int returnVal = chooser.showOpenDialog(null);
 
         if (returnVal == JFileChooser.APPROVE_OPTION) {
